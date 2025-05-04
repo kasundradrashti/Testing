@@ -7,7 +7,7 @@ resource "google_storage_bucket" "auto-expire" {
   public_access_prevention = "enforced"
 }
 
-resource "google_storage_bucket" "auto-expire1" {
+resource "google_storage_bucket" "auto-expire" {
   name          = "cloud-build-demo-bucket1"
   location      = "US"
   project       = "drashtik-ifs-dev"
